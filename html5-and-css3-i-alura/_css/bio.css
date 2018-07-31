@@ -1,0 +1,12 @@
+.about-me {
+    text-transform: uppercase; 
+}
+
+.citacao-bio-fiat {
+    float: right;
+}
+
+.citacao-bio-petrobras {
+    float: left;
+}
+

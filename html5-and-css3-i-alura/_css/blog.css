@@ -1,0 +1,14 @@
+
+article {
+    border-bottom: 1px solid #ccc;
+}
+
+.read-more {
+    font-size: 16pt;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    background: #cecece;
+    text-decoration: none;
+}

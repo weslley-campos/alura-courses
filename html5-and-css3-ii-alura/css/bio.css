@@ -1,0 +1,68 @@
+.citacao-bio {
+    background-color: #D9E5E3;
+    border: .5em solid #C2CCCA;
+    padding: 1em;
+    margin: 1em 2em;
+    width: 30ch;
+    box-sizing: border-box;
+}
+
+.citacao-bio:nth-of-type(odd) {
+    float: right;
+    margin-right: 0;    
+}
+
+.citacao-bio:nth-of-type(even) {
+    float: left;
+    margin-left: 0;
+}
+
+.citacao-bio:nth-of-type(odd):hover, 
+.citacao-bio:nth-of-type(odd):focus {
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    transform: scale(1.2) rotate(-10deg);
+    transition: .5s; 
+}
+
+.citacao-bio:nth-of-type(even):hover, 
+.citacao-bio:nth-of-type(even):focus {
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    transform: rotate(10deg) scale(1.2);
+    transition: .5s; 
+}
+
+.container > p::first-letter {
+    font-size: 2em;
+    margin-right: 0.05em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+    
+}
+
+blockquote p {
+    position: relative;
+    text-indent: 2em;
+}
+
+blockquote {
+    position: relative;
+}
+
+.citacao-bio:nth-of-type(odd)::before {
+    content: '"';
+    font-size: 1000%;
+    color: #bbb;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    
+}
+
+.citacao-bio:nth-of-type(odd)::after {
+    content: '"';
+    font-size: 1000%;
+    color: #bbb;
+    position: absolute;
+    right: 0px;
+    bottom: -110px;
+}

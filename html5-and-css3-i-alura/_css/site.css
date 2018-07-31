@@ -1,0 +1,156 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    margin: auto;
+    width: 720px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0px;
+    text-indent: 30px;
+}
+main {
+    width: 85%;
+    float: left;
+}
+main div {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+    padding-bottom: 80px;
+}
+
+main h1 {
+    font-size: 60px;
+    background-color: #851944;
+    color: #f2fffc;
+    text-align-last: center;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    margin: 0;
+    padding: 25px;
+    border-bottom: 10px solid black;
+}
+
+main a {
+    color: #851944;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    clear: both;
+}
+
+aside {
+    background: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+}
+
+img,
+aside {
+    width: 20%;
+    float: right;
+}
+
+aside {
+    clear: right;
+}
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+    border: 10px solid #c2ccca;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+}
+
+
+nav a {
+    color: #F2FFFC;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.rodape {
+    background: #000;
+    color: #F2FFFC;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.img-github {
+    background: url(github.png);
+}
+
+.img-twitter {
+    background: url(twitter.png);
+}
+
+.img-likedin {
+    background: url(linkedin.png);
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+aside, img {
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 320px;
+    box-sizing: border-box;
+}
+
+aside {
+    position: relative;
+    top: 320px;
+    right: 0;
+}
